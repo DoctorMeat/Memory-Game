@@ -1,0 +1,57 @@
+#game div {
+  border: 2px solid rgb(158, 154, 154);
+  box-shadow: 10px, 10px, 10px, 10px, white;
+  width: 18vw;
+  height: 200px;
+  margin: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  align-items: center;
+}
+
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3990569.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  /* padding: 10px; */
+  color: white;
+}
+h2 {
+  font-size: large;
+  font-weight: bold;
+  color: #858585;
+  text-align: center;
+}
+
+#restart {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  display: none;
+}
+
+a {
+  background-color: #0187fc;
+  color: white;
+  width: 100px;
+  outline: 1px solid #858585;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #1277d0;
+  transition: cubic-bezier(1, 0, 0, 1);
+}
